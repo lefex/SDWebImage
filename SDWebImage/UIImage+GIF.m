@@ -15,6 +15,10 @@
 @implementation UIImage (GIF)
 
 + (UIImage *)sd_animatedGIFWithData:(NSData *)data {
+    if (data.length == 0) {
+        return [UIImage imageNamed:@"lefe.png"];
+    }
+    
     if (!data) {
         return nil;
     }
