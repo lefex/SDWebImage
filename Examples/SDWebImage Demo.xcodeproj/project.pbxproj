@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		23B1B9BF1F53EFA500085C68 /* LefeTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B1B9BE1F53EFA500085C68 /* LefeTest.m */; };
 		3E75A9861742DBE700DA412D /* CustomPathImages in Resources */ = {isa = PBXBuildFile; fileRef = 3E75A9851742DBE700DA412D /* CustomPathImages */; };
 		4314D1AA1D0E1181004B36C9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4314D1A91D0E1181004B36C9 /* main.m */; };
 		4314D1AD1D0E1181004B36C9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4314D1AC1D0E1181004B36C9 /* AppDelegate.m */; };
@@ -159,6 +160,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		23B1B9BD1F53EFA500085C68 /* LefeTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LefeTest.h; sourceTree = "<group>"; };
+		23B1B9BE1F53EFA500085C68 /* LefeTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LefeTest.m; sourceTree = "<group>"; };
 		3E75A9851742DBE700DA412D /* CustomPathImages */ = {isa = PBXFileReference; lastKnownFileType = folder; path = CustomPathImages; sourceTree = SOURCE_ROOT; };
 		4314D1A61D0E1181004B36C9 /* SDWebImage TV Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SDWebImage TV Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4314D1A91D0E1181004B36C9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -387,6 +390,8 @@
 				537612B1155AB74D005750A4 /* MasterViewController.xib */,
 				537612B4155AB74D005750A4 /* DetailViewController.xib */,
 				537612A0155AB74D005750A4 /* Supporting Files */,
+				23B1B9BD1F53EFA500085C68 /* LefeTest.h */,
+				23B1B9BE1F53EFA500085C68 /* LefeTest.m */,
 			);
 			path = "SDWebImage Demo";
 			sourceTree = "<group>";
@@ -693,6 +698,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23B1B9BF1F53EFA500085C68 /* LefeTest.m in Sources */,
 				537612A6155AB74D005750A4 /* main.m in Sources */,
 				537612AA155AB74D005750A4 /* AppDelegate.m in Sources */,
 				537612AD155AB74D005750A4 /* MasterViewController.m in Sources */,
